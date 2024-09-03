@@ -1,0 +1,20 @@
+# Template file for 'qt-sudo'
+pkgname=qt-sudo
+version=2.0.1
+revision=1
+build_style=qmake
+#configure_args=""
+#make_build_args=""
+#make_install_args=""
+#conf_files=""
+#make_dirs="/var/log/dir 0755 root root"
+hostmakedepends="pkg-config qt6-base-devel qt6-tools"
+makedepends=""
+depends=""
+short_desc="A clone of LXQt sudo tool, without LXQt libs"
+maintainer="Sébastien Pondichy <sebastien.pondichy@gmail.com>"
+license="LGPL-2.1-only"
+homepage="https://github.com/aarnt/qt-sudo/"
+#changelog=""
+distfiles="https://github.com/aarnt/qt-sudo/releases/download/v${version}/qt-sudo-${version}.tar.gz"
+checksum=d97f38b37f2f8e4411506bed361090415a5617ebd794a9de7d9b4bb606ece3a1
